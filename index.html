@@ -37,12 +37,16 @@
     .container div:nth-child(1) {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
     }
     .container .colum:nth-child(2) {
+      border: 1px solid var(--very-dark-grayish-blue);
+      border-radius: 10px;
+    }
+    .colum .row {
       border: 1px solid var( --light-gray);
       border-radius: 10px;
     }
-
   </style>
 </head>
 <body>
@@ -124,15 +128,15 @@
     </div>
 
     <div class="colum">
-      <img class="row-img" src="./images/image-kira.jpg" alt="">
-      <p class="row-title">
-        <span class="row-title-name">Kira Whittle</span>
-        <span class="row-title-graduate">Verified Graduate</span>
+      <img class="colum-img" src="./images/image-kira.jpg" alt="">
+      <p class="colum-title">
+        <span class="colum-title-name">Kira Whittle</span>
+        <span class="colum-title-graduate">Verified Graduate</span>
       </p>
-      <p class="row-text-firt">
+      <p class="colum-text-firt">
         Such a life-changing experience. Highly recommended!
       </p>
-      <p class="row-text-second">
+      <p class="colum-text-second">
         “ Before joining the bootcamp, I’ve never written a line of code. I needed 
         some structure from professionals who can help me learn programming step by 
         step. I was encouraged to enroll by a former student of theirs who can only 
